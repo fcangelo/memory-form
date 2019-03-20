@@ -1,0 +1,2 @@
+[*.{js,json,scss,babelrc}]
+indent_size = 2

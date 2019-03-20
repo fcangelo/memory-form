@@ -1,0 +1,49 @@
+.container-el {
+  position: fixed;
+  display: block;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: $accent-part;
+  border-top-right-radius: 5px;
+}
+
+.section-header {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.lower-depth {
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.static-depth {
+  z-index: 2;
+}
+
+.higher-depth {
+  opacity: 1;
+  z-index: 3;
+}
+
+#memory-form-control-el {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#memory-form-gear-contain {
+  height: 32px;
+  width: 32px;
+}
+
+#memory-form-gear {
+  fill: $light-part;
+}
+
+#memory-form-control-container {
+  background-color: $accent-alt;
+}

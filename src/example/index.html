@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" id="memory-form-target-el">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MemoryForm - Example</title>
+    </head>
+    <body>
+        <div class="all-form-types">
+            <h2>Form Elements</h2>
+            <fieldset>
+                <h3>Text Input</h3>
+                <input id="text-input" type="text" value="Text Input">
+            </fieldset>
+            <fieldset>
+                <h3>Textarea</h3>
+                <textarea name="bill" id="textarea-input" cols="30" rows="10">Textarea Input</textarea>
+            </fieldset>
+            <fieldset>
+                <h3>Select One</h3>
+                <select name="selector" id="select-one-input">
+                    <option value="first">First</option>
+                    <option value="second" selected>Second</option>
+                    <option value="third">Third</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <h3>Select Multiple</h3>
+                <select multiple name="selector" id="select-multiple-input">
+                    <option value="first">First</option>
+                    <option value="second" selected>Second</option>
+                    <option value="third" selected>Third</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <h3>Radio</h3>
+                <label>
+                    <input type="radio" name="input-radio-group" value="first">
+                    First
+                </label>
+                <label>
+                    <input type="radio" name="input-radio-group" value="second" checked>
+                    Second
+                </label>
+            </fieldset>
+            <fieldset>
+                <h3>Checkbox</h3>
+                <label>
+                    <input type="checkbox" name="input-checkbox-group" value="first">
+                    First
+                </label>
+                <label>
+                    <input type="checkbox" name="input-checkbox-group" value="second" checked>
+                    Second
+                </label>
+            </fieldset>
+        </div>
+        <!-- <div class="container-el static-depth">
+            <h5 class="section-header">Settings</h5>
+            <div id="memory-form-control-el"></div>
+        </div>
+        <div class="container-el lower-depth" id="memory-form-control-container">
+            <h5 class="section-header">Controls</h5>
+            <div class="memory-form-control-collection">
+                <h5>Radio Sans Group</h5>
+                <label>
+                    <input type="radio" name="title" value="mr">
+                    Mr
+                </label>
+                <label>
+                    <input type="radio" name="title" value="mrs">
+                    Mrs
+                </label>
+            </div>
+        </div> -->
+    </body>
+</html>

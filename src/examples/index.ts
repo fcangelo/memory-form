@@ -2,24 +2,23 @@
 import './scss/styles.scss';
 
 // Import types
-import { 
-  MemoryFormConstructor,
-  MemoryFormInterface 
-} from '../common/types';
+import { MemoryFormConstructor, MemoryFormInterface } from '../common/types';
 
 // Example JavaScript to run on index.html
 class ExampleJS {
   private exampleMemoryForm: MemoryFormInterface;
 
-  constructor(memoryForm: MemoryFormConstructor) {
-    let targetEl: (HTMLElement | null) = document.querySelector('#memory-form-target-el');
+  public constructor(memoryForm: MemoryFormConstructor) {
+    // let targetEl: HTMLElement | null = document.querySelector(
+    //   '#memory-form-target-el',
+    // );
     // let controlEl1  = document.querySelector('#memory-form-control-el');
 
-    this.exampleMemoryForm  = new memoryForm();
+    this.exampleMemoryForm = new memoryForm();
     // this.controlGear          = document.querySelector('#memory-form-control-el');
   }
 
-  public init() {
+  public init(): void {
     // this.setGear();
     // this.exampleMemoryForm.init();
     // this.setEvents();
@@ -43,7 +42,7 @@ class ExampleJS {
       '#select-one-input',
       '#select-multiple-input',
       'input[name="input-radio-group"]',
-      'input[name="input-checkbox-group"]'
+      'input[name="input-checkbox-group"]',
     ]);
 
     // this.exampleMemoryForm.watch('#text-input');

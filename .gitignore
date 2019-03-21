@@ -1,2 +1,4 @@
-dist
-node_modules
+/.eslintcache
+/dist
+/node_modules
+yarn-error.log

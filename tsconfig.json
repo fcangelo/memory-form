@@ -5,7 +5,7 @@
     // Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'.
     "module": "commonjs",
     // Search under node_modules for non-relative imports.
-    "moduleResolution": "classic",
+    // "moduleResolution": "classic",
     // Process & infer types from .js files.
     "allowJs": false,
     // Don't emit; allow Babel to transform files.

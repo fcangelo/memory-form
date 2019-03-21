@@ -18,27 +18,27 @@ export interface MemoryFormInterface {
 }
 
 export interface NodeTypeInterface {
-  [type: string]: NodeObjInterface
+  [type: string]: NodeObjInterface;
 }
 
 export interface NodeObjInterface {
-  searchKey: string,
-  // retKey: string,
-  childNodeKey: string,
-  // isKeyStored: boolean,
-  // isSingleValue: boolean
+  searchKey: string;
+  // retKey: string;
+  childNodeKey: string;
+  // isKeyStored: boolean;
+  // isSingleValue: boolean;
 }
 
 export interface InMemoryObjDetailsInterface {
-  target: NodeListOf<any>,
-  targetType: string,
-  targetValue: (string | number)[]
+  target: NodeListOf<any>;
+  targetType: string;
+  targetValue: (string | number)[];
 }
 
 export interface InMemoryObjInterface {
-  [elKey: string]: InMemoryObjDetailsInterface
+  [elKey: string]: InMemoryObjDetailsInterface;
 }
 
 export interface LocalStorageObjInterface {
-  [elKey: string]: (string | number)[]
+  [elKey: string]: (string | number)[];
 }
